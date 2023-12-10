@@ -1,0 +1,691 @@
+.main-banner{
+    background-image: url('https://sony.scene7.com/is/image/sonyglobalsolutions/4000_980_5span_text_desktop-17?$toutDesktop$&fmt=png-alpha');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    color: var(--background);
+    padding: 0px 10vw;
+  }
+  .main-banner .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main-banner h2{
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .main-banner span{
+    font-weight: 600;
+  }
+  .main-banner .discover{
+    height: 50px;
+    width: 300px;
+    background-color: rgba(91,3,12,255);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.2s ease;
+    margin-top: 18px;
+  }
+  .section-title{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .section h1{
+    margin-top: 50px;
+    font-size: 40px;
+    margin-left: 4vw;
+    font-weight: 400;
+  }
+  .section a{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s ease;
+  }
+  .section .see-more-products{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 4vw;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+  .section .see-more-products span{
+    transition: 0.2s ease;
+  }
+  .section .see-more-products:hover span{
+    transform: translateX(3px);
+  }
+  .box-continer{
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1.5vw;
+    padding: 4vw;
+  }
+  .box-continer .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: #DEE1E2;
+    border-radius: 20px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    position: relative;
+  }
+  .box-continer .large{
+    height: 100%;
+    width: 50%;
+  }
+  .box-continer .medium{
+    height: 50%;
+    width: 100%;
+  }
+  .box-continer .box-2-continer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    gap: 1.5vw;
+  }
+  .box-2-continer .small-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vw;
+    height: 50%;
+    width: 100%;
+  }
+  .medium img{
+    width: 20vw;
+    margin-top: -90px;
+    transition: 0.3s ease;
+  }
+  .large img{
+    width: 30vw;
+    margin-bottom: 30px;
+    transition: 0.3s ease;
+  }
+  .discover-button{
+    width: 200px;
+    height: 40px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    display: none;
+  }
+  .box-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .medium .box-name{
+    margin-top: -50px;
+  }
+  .small img{
+    width: 15vw;
+    margin-top: -55px;
+    transition: 0.3s ease;
+  }
+  .small .box-name{
+    margin-top: -20px;
+  }
+  .small:hover,
+  .large:hover{
+    width: 60%;
+  }
+  .medium:hover{
+    height: 60%;
+  }
+  .large:hover img{
+    width: 32vw;
+    margin-top: -2vw;
+  }
+  .small:hover img{
+    width: 17vw;
+    margin-top: calc(-55px -2vw);
+  }
+  .medium:hover img{
+    width: 22vw;
+    margin-top: calc(-90px -2vw);
+  }
+  .discover:hover{
+    background-color: #700711;
+  }
+  .box:hover{
+    background-color: #c8ccce;
+  }
+  .register-products{
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1.5vw;
+    padding: 4vw;
+  }
+  .register{
+    position: relative;
+    width: 25%;
+    height: 100%;
+    background-color: #DEE1E2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 20px;
+    transition: 0.2s ease;
+    padding: 3%;
+    cursor: pointer;
+  }
+  .r1{
+    background-image: url('https://sony.scene7.com/is/image/sonyglobalsolutions/Large_WelcomeToVLOG?$promoOfferLarge$&fmt=png-alpha');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .r2{
+    background-image: url('https://www.sony.eu/alphauniverse/assets/resized/2022/09/mel-zagers-lady-standing-in-the-sea-as-the-sun-sets-behind-582x836-1_portrait_582x836.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .r3{
+    background-image: url('https://sony.scene7.com/is/image/sonyglobalsolutions/promotion_offer_medium?$promoOfferMedium$&fmt=png-alpha');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .r4{
+    background-image: url('https://e0.pxfuel.com/wallpapers/766/1020/desktop-wallpaper-sony-camera-stones-hi-tech-and-background-den.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .register:hover{
+    box-shadow: 0px 0px 20px #DEE1E2;
+  }
+  .register h2,
+  .register h3{
+    text-align: center;
+    opacity: 0;
+    transition: 0.3s ease;
+    z-index: 2;
+    color: #DEE1E2;
+  }
+  .register::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: black;
+    opacity: 0%;
+    transition: 0.3s ease;
+  }
+  .register:hover::before{
+    opacity: 20%;
+  }
+  .register:hover h2,
+  .register:hover h3{
+    opacity: 1;
+  }
+  .universe-box{
+    width: 100vw;
+    height: 50vw;
+    padding: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .universe-section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 4vw;
+    justify-content: center;
+    border-radius: 20px;
+    background-image: url('https://sony.scene7.com/is/image/sonyglobalsolutions/Desktop_AlphaUniverse_Petar-Sabol-12span-2400x960?$promotionTilesDesktop12span$');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .universe-section::before{
+    content: "";
+    position: absolute;
+    width: 60vw;
+    top: 0;
+    left: -25vw;
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    height: 42vw;
+    border-radius: 50%;
+  }
+  .universe-section h2{
+    font-size: 50px;
+    z-index: 2;
+    color: var(--background);
+  }
+  .universe-section h3{
+    z-index: 2;
+    color: var(--background);
+  }
+  .nature-scroll{
+    height: 500vh;/*Depends on pages*/
+    width: 100vw;
+  }
+  .pinned-nature{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+  }
+  .nature{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 500vw;/*Depends on pages*/
+  }
+  .scene{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 0;
+  }
+  .scn-1{
+    left: 0vw;
+  }
+  .scn-2{
+    left: 100vw;
+  }
+  .scn-3{
+    left: 200vw;
+  }
+  .scn-4{
+    left: 300vw;
+  }
+  .scn-5{
+    left: 400vw;
+  }
+  .scene h1{
+    font-size: 50px;
+    color: #232528;
+    font-family: 'Kaushan Script', cursive;
+    margin: 0;
+    transition: 0.2s ease;
+  }
+  .scene img{
+    width: 35%;
+    opacity: 95%;
+  }
+  .scene h2{
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .scene h3{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .scene::before{
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9dd4b4;
+    opacity: 70%;
+    animation: --back-circle 10s ease infinite;
+    transition: 0.2s ease;
+  }
+  .scene::after{
+    content: "Saber más";
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #95bfa2;
+    z-index: 1;
+    font-size: 25px;
+    font-weight: 600;
+    animation: --center-movement-n 8s ease infinite;
+    transition: 0.2s ease;
+    cursor: pointer;
+  }
+  .scene::after:hover{
+    transform: translateX( 0px) translateY( 0px);
+    width: 300px;
+    height: 300px;
+    animation: none;
+  }
+  .scene::after:hover::before{
+    transform: rotate(0deg);
+    width: 290px;
+    height: 290px;
+    animation: none;
+  }
+  .scn-1::after,
+  .scn-1::before{
+    display: none;
+  }
+  .scn-2::after{
+    bottom: 40px;
+    right: 60px;
+  }
+  .scn-2::before{
+    bottom: 20px;
+    right: 40px;
+  }
+  @keyframes --back-circle{
+    0%{
+      width: 300px;
+      height: 300px;
+      transform: rotate(0deg);
+    }
+    10%{
+      width: 350px;
+      height: 310px;
+      transform: rotate(0deg);
+    }
+    20%{
+      width: 300px;
+      height: 300px;
+      transform: rotate(0deg);
+    }
+    30%{
+      width: 310px;
+      height: 350px;
+      transform: rotate(-30deg);
+    }
+    40%{
+      width: 300px;
+      height: 300px;
+      transform: rotate(0deg);
+    }
+    50%{
+      width: 310px;
+      height: 350px;
+      transform: rotate(30deg);
+    }
+    60%{
+      width: 300px;
+      height: 300px;
+      transform: rotate(0deg);
+    }
+    70%{
+      width: 350px;
+      height: 310px;
+      transform: rotate(30deg);
+    }
+    80%{
+      width: 300px;
+      height: 300px;
+      transform: rotate(0deg);
+    }
+    90%{
+      width: 350px;
+      height: 310px;
+      transform: rotate(-30deg);
+    }
+    100%{
+      width: 300px;
+      height: 300px;
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes --center-movement-n{
+    0%{
+      transform: translateX(-10px) translateY(0px);
+    }
+    25%{
+      transform: translateX(0px) translateY(10px);
+    }
+    50%{
+      transform: translateX(0px) translateY(-10px);
+    }
+    75%{
+      transform: translateX(10px) translateY(0px);
+    }
+    100%{
+      transform: translateX(-10px) translateY(0px);
+    }
+  }
+  .img-circle{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0px 0px 24px #0b2b26;
+  }
+  .scn-2 .img-circle{
+    top: 20px;
+    left: 40px;
+    background-image: url('https://www.sony.com/articleimage/servlet/servlet.FileDownload?file=0155F000008qR9RQAU');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-color: #221f40;
+  }
+  .scn-3::after{
+    top: calc(40% + 20px);
+    right: 60px;
+  }
+  .scn-3::before{
+    top: 40%;
+    right: 40px;
+  }
+  .scn-3 .img-circle{
+    top: 40px;
+    left: 80px;
+    background-image: url('https://www.sony.es/content/dam/sony/contents/regional-FSMC/seu/common/homepage/hp-regional-bottom-area/columns-slideshow-component/ggpd-7256-sustainability/4%20-%20ZV-1F.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .scn-5::after{
+    top: calc(40% + 20px);
+    right: 60px;
+  }
+  .scn-5::before{
+    top: 40%;
+    right: 40px;
+  }
+  .scn-5 .img-circle{
+    top: 40px;
+    left: 80px;
+    background-image: url('https://www.sony.es/image/faacb632ecf4eaa31bdb5e63ce012f8b?fmt=jpeg&wid=960&qlt=43');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #d0d4dc;
+  }
+  .scn-4::after{
+    top: 60px;
+    left: 80px;
+  }
+  .scn-4::before{
+    top: 40px;
+    left: 60px;
+  }
+  .scn-4 .img-circle{
+    bottom: 20px;
+    right: 40px;
+    background-image: url('https://www.sony.es/image/b8719fefd077b8b3cd95baabd2980085?fmt=jpeg&wid=600&qlt=85');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #d0d4dc;
+  }
+  .foot{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4vw;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #DEE1E2;
+    gap: 4vw;
+  }
+  .foot a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+  }
+  .foot-menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .foot-closing{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .foot-closing a{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .foot-closing img{
+    width: 200px;
+    cursor: pointer;
+  }
+  .foot-menu a::before{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background-color: black;
+    border-radius: 20px;
+    transition: 0.5s ease;
+  }
+  .foot-menu a:hover::before{
+    width: 100%;
+  }
+  
+  
+  /*Nicolau navarro*/
+  
+  @media (max-width: 1050px){
+  .main-banner{
+    background-position: top 50% right -480px;
+    padding: 0px 5vw;
+  }
+  .main-banner h2{
+    font-size: 30px;
+  }
+  .box-continer{
+    position: relative;
+    height: 109.5vw;
+    padding-top: 24vw;
+    gap: 1.5vw;
+  }
+  
+  .box-continer .large{
+    height: 70vw;
+    width: 70vw;
+  }
+  .box-continer .medium{
+    position: absolute;
+    top: 4vw;
+    left: 4vw;
+    height: 25vw;
+    width: 92vw;
+  }
+  .box-2-continer{
+    padding: 0;
+    margin: 0;
+  }
+  .box-continer .box-2-continer{
+    width: 30vw;
+    height: 100%;
+    padding: 0;
+  }
+  .box-2-continer .small-boxes{
+    height: 70vw;
+    width: 30vw;
+    flex-direction: column;
+    padding: 0;
+    margin: 0px;
+    gap: 1.5vw;
+    justify-content: space-between;
+  }
+  .small-boxes .small{
+      width: 30vw;
+      margin: 0;
+      height: 50%;
+  }
+  .register-products{
+    height: 100vw;
+    flex-wrap: wrap;
+  }
+  .register{
+    width: 45vw;
+    height: 50%;
+  }
+  }
+  /*Nicolau navarro*/
+  @media (max-width: 962px){
+  .main-banner{
+    margin-bottom: 160px;
+  }
+  .main-banner .title{
+    position: absolute;
+    top: 500px;
+    left: 0;
+    padding: 4vw;
+    padding-bottom: 5vw;
+    width: 100vw;
+    background-color: black;
+    align-items: center;
+  }
+  }
+  
